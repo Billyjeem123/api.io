@@ -1,0 +1,10 @@
+<?php
+include('models/Utility.php');
+include('models/Users.php');
+include('models/Auth.php');
+include('models/controller.php');
+include('models/errorhandler.php');
+include('models/gateway.php');
+set_exception_handler('errorhandler::handleError');
+set_exception_handler('errorhandler::handleException');
+?>

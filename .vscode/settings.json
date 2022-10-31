@@ -1,0 +1,6 @@
+{
+    "remove-empty-lines.allowedNumberOfEmptyLines": 0,// allow 0 in all files
+"[markdown]": {
+  "remove-empty-lines.allowedNumberOfEmptyLines": 1,// allow 1 in markdown files
+},
+}

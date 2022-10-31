@@ -1,0 +1,43 @@
+This is an internal developers documetnation for FULAZO.io version 0.1
+
+
+apptoken - vjh35vj3hv5jhv56jh5v6jhv56jh3v6j3hv6jhvj3hvuu3yg5uygu3y5guyg5uyuhb5uh
+baseurl - dev.system.fulazo.io/v0.1/api
+
+
+1. register
+path - /register
+method - POST
+data (object)
+	- fname - first name
+	- lname - last name
+	- mail - email
+	- pword - password 
+	- cpword - confirm password
+	- phone - phone number
+response (object)
+
+
+
+2. login
+path - /login
+nbc method - POST
+data (object)
+	- mail - email
+	- pword - password 
+response (object)
+
+
+
+3. updateUserInfo
+path - /updateUserInfo
+method - POST
+data (object)
+- fname - first name
+- lname - last name
+- mail - email
+- pword - password
+- phone - phone number 
+-  id  -   userid
+-
+response (object)

@@ -1,0 +1,29 @@
+08183339007
+
+
+08144807810
+
+
+X-API-KEY isa normal method for sclig application but when scalling an applicattion
+
+The X-API-KEY method is not a good idea of doing such things
+
+    RThe main goals of using a token is tht we wouldnt be checking
+     for validation every now and then
+
+First method apache strips it put before php reads it;
+solution either configure  apache or use the apache_request_headers
+     // echo $_SERVER['HTTP_AUTHORIZATION'];
+$header = apache_request_headers();
+echo $header['Authorization'];
+
+{
+    "taskname": "Hope",
+    "priority": 1,
+    "completed": 1,
+     "userid": 5
+  
+}
+
+
+
